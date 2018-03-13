@@ -2,7 +2,7 @@
  True,
  False,
  True,
- None,
+ 'C:\\Users\\DavidSoden\\Documents\\GitHub\\Learning-Project\\Tic.ico',
  None,
  False,
  False,
@@ -36,7 +36,7 @@
  [],
  False,
  False,
- 1520952603,
+ 1520957089,
  [('run.exe',
    'c:\\users\\davidsoden\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-32bit\\run.exe',
    'EXECUTABLE')])

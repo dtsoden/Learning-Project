@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['C:\\Users\\DavidSoden\\Documents\\GitHub\\Learning-Project\\tic-tac-toe.py'],
+a = Analysis(['icon=C:\\Users\\DavidSoden\\Documents\\GitHub\\Learning-Project\\Tic.ico', 'C:\\Users\\DavidSoden\\Documents\\GitHub\\Learning-Project\\tic-tac-toe.py'],
              pathex=['C:\\Users\\DavidSoden\\Documents\\GitHub\\Learning-Project'],
              binaries=[],
              datas=[],
@@ -19,15 +19,15 @@ pyz = PYZ(a.pure, a.zipped_data,
 exe = EXE(pyz,
           a.scripts,
           exclude_binaries=True,
-          name='tic-tac-toe',
+          name='Tic',
           debug=False,
           strip=False,
           upx=True,
-          console=True , icon='C:\\Users\\DavidSoden\\Documents\\GitHub\\Learning-Project\\Tic.ico')
+          console=True )
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
                a.datas,
                strip=False,
                upx=True,
-               name='tic-tac-toe')
+               name='Tic')

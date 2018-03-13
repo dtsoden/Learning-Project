@@ -309,8 +309,8 @@ def user_moves(x,y):
 def run_game(turn,taken=0,square=0):
         global move_num
         if taken==1:
-            system('cls')
-            print('DAMN! - you picked square '+str(square) +' and it''s already taken ')
+            print('\n\nDAMN! - you picked square '+str(square) +' and it''s already taken ')
+            input("Press any key to continue...")
         if turn%2==0:
             print_board()
             #print(pos)

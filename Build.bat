@@ -1,0 +1,1 @@
+pyinstaller --icon=C:\Users\DavidSoden\Documents\GitHub\Learning-Project\Tic.ico C:\Users\DavidSoden\Documents\GitHub\Learning-Project\tic-tac-toe.py
